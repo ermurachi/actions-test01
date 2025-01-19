@@ -12,3 +12,6 @@ jobs:
     
     steps:
       - run: echo "👋 Hello World!"
+
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
